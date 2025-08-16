@@ -1,0 +1,19 @@
+{
+  "name": "image-finder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaigaProZz/image-finder-download-pexels.git"
+  },
+  "author": "TaigaProZz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TaigaProZz/image-finder-download-pexels/issues"
+  },
+  "homepage": "https://github.com/TaigaProZz/image-finder-download-pexels#readme",
+  "description": ""
+}
