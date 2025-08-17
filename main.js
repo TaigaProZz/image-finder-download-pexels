@@ -34,7 +34,7 @@ ipcMain.handle('download-images', async (event, query, page) => {
 
     for (let i = 0; i < images.length; i++) {
       const imageUrl = images[i].webformatURL;
-      const imagePath = path.join(downloadsDir, `image_${i + 1}_${query}_${Date.now()}.jpg`);
+      const imagePath = path.join(downloadsDir, `${Date.now()}_${query}_${i + 1}.jpg`);
 
       const res = await fetch(imageUrl);
       const buffer = await res.buffer();
